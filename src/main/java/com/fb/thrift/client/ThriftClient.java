@@ -24,8 +24,6 @@ public class ThriftClient implements IThriftClient, Closeable {
 
 	private final static Logger logger = LoggerFactory.getLogger(ThriftClient.class);
 
-	private final static String STABLE_CTRL_API = "StableCrtl";
-
 	private final static int TIMEOUT = 3000;
 
 	private final ObjectPool<IThriftClient> fPool;
@@ -85,7 +83,7 @@ public class ThriftClient implements IThriftClient, Closeable {
 	}
 
 	@Override
-	public TServiceClient getCLient() {
+	public TServiceClient getClient() {
 		return this.mClient;
 	}
 

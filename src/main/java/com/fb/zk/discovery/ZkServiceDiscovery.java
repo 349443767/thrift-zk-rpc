@@ -1,4 +1,4 @@
-package com.fb.zk.xdiscovery;
+package com.fb.zk.discovery;
 
 import com.fb.zk.common.IErrDefine;
 import com.fb.zk.common.IZkServiceDiscovery;

@@ -8,7 +8,7 @@ public interface IThriftClient {
 
 	ZKServiceDetail getServiceDetail();
 
-	TServiceClient getCLient();
+	TServiceClient getClient();
 
 	void returnClient() throws Exception;
 

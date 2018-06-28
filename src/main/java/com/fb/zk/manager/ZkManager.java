@@ -11,7 +11,7 @@ import com.fb.zk.config.entity.ZKServerTargetEntity;
 import com.fb.zk.manager.connection.ZkClientHolder;
 import com.fb.zk.register.ZKRegistHelper;
 import com.fb.zk.util.timer.TimeTaskManager;
-import com.fb.zk.xdiscovery.ZkServiceDiscovery;
+import com.fb.zk.discovery.ZkServiceDiscovery;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
