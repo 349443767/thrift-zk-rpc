@@ -1,7 +1,7 @@
-#thrift-zk-rpc
+# thrift-zk-rpc
 
-##1.zookeeper配置
-###config path
+## 1.zookeeper配置
+### config path
 
 注册zookeeper配置默认径路<br>
 `DEFAULT_CFG_PATH = "/root/ZK_Server_Config/"`
@@ -9,7 +9,7 @@
 在properties文件自定义配置路径<br>
 `zk.cfg.path=/services/zk_config/`
 
-###zk_server.xml config context
+### zk_server.xml config context
 
     <?xml version="1.0" encoding="utf-8" standalone="yes"?>
     
