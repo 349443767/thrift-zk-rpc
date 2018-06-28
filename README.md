@@ -1,6 +1,6 @@
 # thrift-zk-rpc
 
-## 1.zookeeper配置
+## 1.zookeeper注册配置
 ### config path
 
 注册zookeeper配置默认径路<br>
